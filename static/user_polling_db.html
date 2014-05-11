@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User Polling</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    </head>
+    <body>
+        <h1>Send one user polling msg</h1>
+        <p>Polling is like query. Currentyly, only polling for New coming help_requests<br><p>
+        <form method="post" action="/test_user_polling">
+        <p>User ID<br><input type="text" name="USERID"></p>
+        <p>Update Item<br><input type="text" name="UPDATE_ITEM"></p>
+        <p>Update Item: 1 -- poll_help_cando_list, 2 -- poll_help_cando_list_ext<br><p>
+        <p>             3 -- poll_help_me_list, 4 -- poll_help_me_list_ext<br><p>
+        <p>             5 -- poll_help_accpet_list, 6 -- poll_help_accept_list_ext, -- equals help other doing in APP<br><p>
+        <p>             7 -- poll_help_finish_list, 8 -- poll_help_finish_list_ext, -- equals help other done in APP<br><p>
+        <p>             9 -- poll_help_unfinish_list, 10 -- poll_help_unfinish_list_ext<br><p>
+        <p>             11 -- poll_help_me_unfinish_list, 10 -- poll_help_me_unfinish_list_ext<br><p>
+        <input type="submit">
+        </form>
+    </body>
+</html>
