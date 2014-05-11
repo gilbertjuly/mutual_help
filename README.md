@@ -8,7 +8,11 @@ server运行在BAE上，采用python编写，tornado web框架，mongoDB数据�
 
 
 效果如下：
+
 ![](/snapshot1.png 'snapshot1')
+
 ![](/snapshot2.png 'snapshot2')
+
 ![](/snapshot3.png 'snapshot3')
+
 ![](/snapshot4.png 'snapshot4')
